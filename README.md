@@ -12,3 +12,15 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `npx cdk deploy`  deploy this stack to your default AWS account/region
 * `npx cdk diff`    compare deployed stack with current state
 * `npx cdk synth`   emits the synthesized CloudFormation template
+
+---
+
+注意: https化していない
+注意: キーペアは予め作成しておく
+
+
+.envファイルに必要な設定
+
+CDK完了後
+
+http://パブリック IPv4 アドレス OR パブリック IPv4 DNS/wordpress
